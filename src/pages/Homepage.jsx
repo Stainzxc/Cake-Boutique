@@ -130,7 +130,7 @@ export default function Homepage() {
             <img
               src={cake2}
               alt="Image 1"
-              className="w-full h-auto md:h-[500px] lg:h-fit"
+              className="w-full h-auto md:h-[500px] lg:h-[600px]"
             />
             <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
               Birthday Cakes
