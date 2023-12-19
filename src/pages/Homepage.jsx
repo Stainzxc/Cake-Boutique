@@ -30,12 +30,12 @@ export default function Homepage() {
               <span className="hidden md:block"> BOUTIQUE</span>
             </div>
             <div className="list-none hidden lg:flex text-xs lg:text-base justify-centerfy-around items-center lg:ml-8 text-white">
-              <li className="mr-10">SIGNATURE CAKES</li>
-              <li className="mr-10">BESPOKE CAKES</li>
-              <li className="mr-10">WEDDING CAKES</li>
-              <li className="mr-10">CAKESICLES</li>
-              <li className="mr-10">CHOCOLATES</li>
-              <li className="mr-10">MASTER CLASSES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">SIGNATURE CAKES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">BESPOKE CAKES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">WEDDING CAKES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">CAKESICLES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">CHOCOLATES</li>
+              <li className="mr-10 cursor-pointer hover:border-b-2 border-transparent hover:border-white transition-colors duration-300">MASTER CLASSES</li>
             </div>
             <div className="hidden md:flex items-center text-white mr-4 md:mr-0">
               <svg
@@ -45,7 +45,7 @@ export default function Homepage() {
                 stroke-width="1.5"
                 stroke="currentColor"
                 data-slot="icon"
-                class="w-6 h-6 mr-10"
+                class="w-6 h-6 mr-10 cursor-pointer"
               >
                 <path
                   stroke-linecap="round"
@@ -60,7 +60,7 @@ export default function Homepage() {
                 stroke-width="1.5"
                 stroke="currentColor"
                 data-slot="icon"
-                class="w-6 h-6 mr-10"
+                class="w-6 h-6 mr-10 cursor-pointer"
               >
                 <path
                   stroke-linecap="round"
@@ -75,7 +75,7 @@ export default function Homepage() {
                 stroke-width="1.5"
                 stroke="currentColor"
                 data-slot="icon"
-                class="w-6 h-6 mr-10"
+                class="w-6 h-6 mr-10 cursor-pointer"
               >
                 <path
                   stroke-linecap="round"
@@ -271,7 +271,7 @@ export default function Homepage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* NEWSLETTER */}
             <div className="flex flex-col text-[#797979]">
-              <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+              <h1 className="text-xl md:text-2xl lg:text-3xl">
                 Newsletter
               </h1>
               <div className="relative">
@@ -330,7 +330,7 @@ export default function Homepage() {
                   Phone Number
                 </label>
               </div>
-              <div class="flex flex-col my-4 text-sm">
+              <div class="flex flex-col my-4 md:text-base">
                 <div className="mt-4 text-[#797979]">
                   <h1>Marketing Permissions</h1>
                 </div>
@@ -344,7 +344,7 @@ export default function Homepage() {
                 </div>
               </div>
               <div>
-                <p className="text-[#797979] text-sm mb-4">
+                <p className="text-[#797979] md:text-base mb-4">
                   By signing up you are agreeing to receive the latest news and
                   exclusive offers from our restaurants
                 </p>
@@ -399,32 +399,32 @@ export default function Homepage() {
                 </ul>
               </div>
               <div className="flex flex-row">
-                <button>
+                <button className="bg-white rounded-full mr-4">
                   <img
                     src={tiktok}
                     alt="tiktok"
-                    className="w-10 h-10 bg-white rounded-full p-2 mr-8"
+                    className="w-10 h-10 p-2"
                   />
                 </button>
-                <button>
+                <button className="bg-white rounded-full mr-4">
                   <img
                     src={youtube}
                     alt="youtube"
-                    className="w-10 h-10 bg-white rounded-full p-2 mr-8"
+                    className="w-10 h-10 p-2"
                   />
                 </button>
-                <button>
+                <button className="bg-white rounded-full mr-4">
                   <img
                     src={facebook}
                     alt="facebook"
-                    className="w-10 h-10 bg-white rounded-full p-2 mr-8"
+                    className="w-10 h-10 p-2"
                   />
                 </button>
-                <button>
+                <button className="bg-white rounded-full mr-4">
                   <img
                     src={instagram}
                     alt="instagram"
-                    className="w-10 h-10 bg-white rounded-full p-2 mr-8"
+                    className="w-10 h-10 p-2"
                   />
                 </button>
               </div>

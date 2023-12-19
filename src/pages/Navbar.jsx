@@ -19,7 +19,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-4 md:mr-10"
+              class="w-6 h-6 mr-4 md:mr-10 cursor-pointer"
             >
               <path
                 stroke-linecap="round"
@@ -34,7 +34,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-4 md:mr-10"
+              class="w-6 h-6 mr-4 md:mr-10 cursor-pointer"
             >
               <path
                 stroke-linecap="round"
@@ -49,7 +49,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-4 md:mr-10"
+              class="w-6 h-6 mr-4 md:mr-10 cursor-pointer"
             >
               <path
                 stroke-linecap="round"
@@ -72,7 +72,7 @@ export default function Navbar() {
             stroke-width="1.5"
             stroke="currentColor"
             data-slot="icon"
-            class="w-6 h-6 text-white"
+            class="w-6 h-6 text-white cursor-pointer"
           >
             <path
               stroke-linecap="round"
@@ -86,7 +86,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             fill="currentColor"
             data-slot="icon"
-            class="w-6 h-6 text-white"
+            class="w-6 h-6 text-white cursor-pointer"
           >
             <path
               fill-rule="evenodd"
