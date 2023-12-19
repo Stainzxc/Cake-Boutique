@@ -1,5 +1,5 @@
 import React from "react";
-import cake from "../assets/images/cakes.png";
+import cake from "../assets/images/cake.jpg";
 import cake2 from "../assets/images/cakes2.jpg";
 import cake3 from "../assets/images/cakes3.jpg";
 import tiktok from "../assets/images/tiktok.png";
@@ -130,7 +130,7 @@ export default function Homepage() {
             <img
               src={cake2}
               alt="Image 1"
-              className="w-full h-auto md:h-[500px] lg:h-[700px]"
+              className="w-full h-auto md:h-[500px] lg:h-fit"
             />
             <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
               Birthday Cakes
@@ -146,7 +146,7 @@ export default function Homepage() {
             <img
               src={cake}
               alt="Image 2"
-              className="w-full h-auto md:h-[500px] lg:h-[700px]"
+              className="w-full h-auto md:h-[500px] lg:h-[600px]"
             />
             <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
               Wedding Cakes
@@ -162,7 +162,7 @@ export default function Homepage() {
             <img
               src={cake3}
               alt="Image 3"
-              className="w-full h-auto md:h-[500px] lg:h-[700px]"
+              className="w-full h-auto md:h-[500px] lg:h-[600px]"
             />
             <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
               Christmas Cakes
