@@ -199,7 +199,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice1} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice1} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -208,7 +208,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice2} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice2} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -217,7 +217,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice3} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice3} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -226,7 +226,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice4} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice4} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full"
@@ -235,7 +235,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice5} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice5} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -244,7 +244,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice6} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice6} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -253,7 +253,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice7} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice7} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -262,7 +262,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice8} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
+          <img src={slice8} alt="" class="w-full h-auto shadow-lg rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
       </div>
       {/* CONTACT */}

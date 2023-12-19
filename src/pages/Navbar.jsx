@@ -19,7 +19,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-10"
+              class="w-6 h-6 mr-4 md:mr-10"
             >
               <path
                 stroke-linecap="round"
@@ -34,7 +34,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-10"
+              class="w-6 h-6 mr-4 md:mr-10"
             >
               <path
                 stroke-linecap="round"
@@ -49,7 +49,7 @@ export default function Navbar() {
               stroke-width="1.5"
               stroke="currentColor"
               data-slot="icon"
-              class="w-6 h-6 mr-10"
+              class="w-6 h-6 mr-4 md:mr-10"
             >
               <path
                 stroke-linecap="round"
@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/*icon*/}
 
-      <div onClick={handleClick} className="md:hidden block z-10 ml-4 mr-2 mt-6">
+      <div onClick={handleClick} className="md:hidden block z-10 md:ml-4 mr-2 mt-6">
         {!nav ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -106,12 +106,12 @@ export default function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">SIGNATURE CAKES</li>
-        <li className="py-6 text-4xl">BESPOKE CAKES</li>
-        <li className="py-6 text-4xl">WEDDING CAKES</li>
-        <li className="py-6 text-4xl">CAKESICLES</li>
-        <li className="py-6 text-4xl">CHOCOLATES</li>
-        <li className="py-6 text-4xl">MASTER CLASSES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">SIGNATURE CAKES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">BESPOKE CAKES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">WEDDING CAKES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">CAKESICLES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">CHOCOLATES</li>
+        <li className="py-6 text-4xl hover:border-b-2 border-transparent hover:border-white transition-colors duration-300 cursor-pointer">MASTER CLASSES</li>
       </ul>
     </div>
   );
