@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/*icon*/}
 
-      <div onClick={handleClick} className="md:hidden z-10 ml-4 mr-2 mt-6">
+      <div onClick={handleClick} className="md:hidden block z-10 ml-4 mr-2 mt-6">
         {!nav ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"

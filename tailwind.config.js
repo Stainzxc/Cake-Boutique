@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        cormorant: ['Cormorant Garamond', 'serif'],
          bolin: ['Bolin', 'cursive'],
       }
     },

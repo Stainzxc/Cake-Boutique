@@ -86,7 +86,7 @@ export default function Homepage() {
             </div>
           </div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-            <h1 className="font-serif text-6xl md:text-7xl lg:text-9xl capitalize text-white">
+            <h1 className="font-cormorant text-6xl md:text-7xl lg:text-9xl capitalize text-white">
               Passion Craft
             </h1>
             <div className="mt-4">
@@ -118,7 +118,7 @@ export default function Homepage() {
         </div>
       </div>
       {/* 3 CAKES */}
-      <div className="bg-white px-4 lg:px-20 py-8 lg:py-20 lg:h-screen flex justify-center items-center">
+      <div className="bg-white px-4 lg:px-20 py-8 lg:py-20 lg:h-screen flex justify-center items-center font-cormorant">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14">
           <div
             className="relative"
@@ -130,9 +130,9 @@ export default function Homepage() {
             <img
               src={cake2}
               alt="Image 1"
-              className="w-full h-auto md:h-[500px] lg:h-[600px]"
+              className="w-full h-auto md:h-[500px] lg:h-[600px] shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer"
             />
-            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
+            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14 backdrop-brightness-50 py-2">
               Birthday Cakes
             </h1>
           </div>
@@ -146,9 +146,9 @@ export default function Homepage() {
             <img
               src={cake}
               alt="Image 2"
-              className="w-full h-auto md:h-[500px] lg:h-[600px]"
+              className="w-full h-auto md:h-[500px] lg:h-[600px] shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer"
             />
-            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
+            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14 backdrop-brightness-50 py-2">
               Wedding Cakes
             </h1>
           </div>
@@ -162,9 +162,9 @@ export default function Homepage() {
             <img
               src={cake3}
               alt="Image 3"
-              className="w-full h-auto md:h-[500px] lg:h-[600px]"
+              className="w-full h-auto md:h-[500px] lg:h-[600px] shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer"
             />
-            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14">
+            <h1 className="absolute bottom-0 left-0 right-0 text-white text-center text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-8 lg:mb-14 backdrop-brightness-50 py-2">
               Christmas Cakes
             </h1>
           </div>
@@ -173,7 +173,7 @@ export default function Homepage() {
 
       {/* ABOUT THE CAKE BOUTIQUE */}
       <div className="bg-black text-white min-h-screen">
-        <div className="p-8 md:p-16 lg:p-32 text-[#797979] text-center md:text-left">
+        <div className="p-8 md:p-16 lg:p-32 text-[#797979] text-center md:text-left font-cormorant">
           <h1 className="text-5xl md:text-8xl">About the</h1>
           <span className="text-5xl md:text-8xl">Cake Boutique</span>
         </div>
@@ -191,7 +191,7 @@ export default function Homepage() {
       </div>
 
       {/* CAKES */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 m-4">
         <div
           class="w-full h-auto"
           data-aos="fade-down"
@@ -199,7 +199,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice1} alt="" class="w-full h-auto" />
+          <img src={slice1} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -208,7 +208,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice2} alt="" class="w-full h-auto" />
+          <img src={slice2} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -217,7 +217,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice3} alt="" class="w-full h-auto" />
+          <img src={slice3} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -226,7 +226,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice4} alt="" class="w-full h-auto" />
+          <img src={slice4} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full"
@@ -235,7 +235,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice5} alt="" class="w-full h-auto" />
+          <img src={slice5} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -244,7 +244,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice6} alt="" class="w-full h-auto" />
+          <img src={slice6} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -253,7 +253,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice7} alt="" class="w-full h-auto" />
+          <img src={slice7} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
         <div
           class="w-full h-auto"
@@ -262,7 +262,7 @@ export default function Homepage() {
           data-aos-delay="50"
           data-aos-duration="1000"
         >
-          <img src={slice8} alt="" class="w-full h-auto" />
+          <img src={slice8} alt="" class="w-full h-auto shadow-2xl rounded-2xl transition duration-300 transform hover:opacity-80 hover:scale-105 cursor-pointer" />
         </div>
       </div>
       {/* CONTACT */}
